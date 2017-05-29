@@ -1,0 +1,143 @@
+<html>
+<head>
+
+<link rel="stylesheet" href="C:\Users\Cheema-PC\Desktop\ADBS NEW FORMS BLOOD SYSTEM\adminpage-css.css">
+
+<script>
+$("#menu-toggle").click(function(e) {
+        e.preventDefault();
+        $("#wrapper").toggleClass("active");
+});
+</script>
+
+</head>
+
+
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="C:\Users\Cheema-PC\Desktop\ADBS NEW FORMS BLOOD SYSTEM\bootstrap.min.css">
+
+<!-- jQuery library -->
+<script src="C:\Users\Cheema-PC\Desktop\ADBS NEW FORMS BLOOD SYSTEM\jquery.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="C:\Users\Cheema-PC\Desktop\ADBS NEW FORMS BLOOD SYSTEM\bootstrap.min.js"></script> 
+
+
+    <nav class="navbar navbar-default" role="navigation">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                <span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span><span
+                    class="icon-bar"></span><span class="icon-bar"></span>
+            </button>
+            <a class="pull-left" id="menu-toggle" href="#"><span id="main_icon" class="glyphicon glyphicon-align-justify"></span></a>
+            <a class="navbar-brand" href="http://www.jquery2dotnet.com">HOSPITAL ADMINISTRATOR</a>
+        </div>
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav">
+                <li class="active"><a href="#"><span class="glyphicon glyphicon-home"></span>Dashboard</a></li>
+                <li><a href="C:\Users\Cheema-PC\Desktop\ADBS NEW FORMS BLOOD SYSTEM\calendar"><span class="glyphicon glyphicon-calendar"></span>Calendar</a></li>
+                <li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown"><span
+                    class="glyphicon glyphicon-list-alt"></span>Manage Donors <b class="caret"></b></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="#">Donor</a></li>
+                        <li><a href="#">Hospitals</a></li>
+                        <li><a href="#"></a></li>
+                        <li class="divider"></li>
+                        <li><a href="#">ADD</a></li>
+                        <li class="divider"></li>
+                        <li><a href="#">ADD</a></li>
+                    </ul>
+                </li>
+                <li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown"><span
+                    class="glyphicon glyphicon-search"></span>Search <b class="caret"></b></a>
+                    <ul class="dropdown-menu" style="min-width: 300px;">
+                        <li>
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <form class="navbar-form navbar-left" role="search">
+                                    <div class="input-group">
+                                        <input type="text" class="form-control" placeholder="Search" />
+                                        <span class="input-group-btn">
+                                            <button class="btn btn-primary" type="button">
+                                                Go!</button>
+                                        </span>
+                                    </div>
+                                    </form>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+            <ul class="nav navbar-nav navbar-right">
+                <li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown"><span
+                    class="glyphicon glyphicon-comment"></span>Chats <span class="label label-primary">5</span>
+                </a>
+                    <ul class="dropdown-menu">
+                        <li><a href="#"><span class="label label-warning">7:00 AM</span>I want to donate blood</a></li>
+                        <li><a href="#"><span class="label label-warning">8:00 AM</span>Need Hospital Details</a></li>
+                        <li><a href="#"><span class="label label-warning">9:00 AM</span>Need Contact of Shifa International</a></li>
+                        <li class="divider"></li>
+                        <li><a href="#" class="text-center">View All</a></li>
+                    </ul>
+                </li>
+                <li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown"><span
+                    class="glyphicon glyphicon-envelope"></span>Inbox
+                </a>
+                    <ul class="dropdown-menu">
+                        <li><a href="#"><span class="label label-warning">New Entry</span>Ali Ahmad </a></li>
+                        <li><a href="#"><span class="label label-warning">New Entry</span>Usman Cheema</a></li>
+                        <li><a href="#"><span class="label label-warning">New Entry</span>Bilal Ahmed</a></li>
+                        <li class="divider"></li>
+                        <li><a href="#" class="text-center">View All</a></li>
+                    </ul>
+                </li>
+                <li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown"><span
+                    class="glyphicon glyphicon-user"></span>Admin <b class="caret"></b></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="#"><span class="glyphicon glyphicon-user"></span>Profile</a></li>
+                        <li><a href="#"><span class="glyphicon glyphicon-cog"></span>Settings</a></li>
+                        <li class="divider"></li>
+                        <li><a href="#"><span class="glyphicon glyphicon-off"></span>Logout</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+        <!-- /.navbar-collapse -->
+    </nav>
+    
+    
+    <div id="wrapper" class="active">
+      
+      <!-- Sidebar -->
+            <!-- Sidebar -->
+      <div id="sidebar-wrapper">
+      <ul id="sidebar_menu" class="sidebar-nav">
+           <li class="sidebar-brand">IT Systems</a></li>
+      </ul>
+        <ul class="sidebar-nav" id="sidebar">     
+          <li><a href="#"><span class="sub_icon glyphicon glyphicon-link">Home</span></a></li>
+          <li><a href="#"><span class="sub_icon glyphicon glyphicon-link">About</span></a></li>
+        </ul>
+      </div>
+          
+      <!-- Page content -->
+      <div id="page-content-wrapper">
+        <!-- Keep all page content within the page-content inset div! -->
+        
+        <div class="page-content inset">
+          <div class="row">
+              <div class="col-md-12">
+              <p class="well lead">Add your Tables Here!</p>
+              <p class="well lead">Click on the Menu to toggle Toolbar!</p> 
+            </div>
+          </div>
+        </div>
+      </div>
+      
+    </div>
+	
+	<html>
+
